@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>정보 — 상수 노래방 위치 정보</title>
+<meta name="description" content="상수동 노래방의 구체적인 위치 좌표와 접근성, 주변 상권, 교통 접근 편의성을 데이터 기반으로 분석합니다.">
+<meta name="keywords" content="상수동 노래방, 상수역 노래방, 위치 좌표, 접근성 분석, 상권 분석, 교통편의">
+<link rel="canonical" href="https://sangsu-info-note.mens-esthe.space/page-information">
+<meta property="og:title" content="정보 — 상수 노래방의 정밀 위치 분석">
+<meta property="og:description" content="상수동 내 노래방의 물리적 위치와 주변 환경을 다각도로 분석하여 방문 효율성을 평가합니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sangsu-info-note.mens-esthe.space/page-information">
+<meta name="twitter:card" content="summary">
+<style>
+@font-face {
+    font-family: 'SangSans';
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+}
+:root {
+    --color-primary: #1a1a1a;
+    --color-secondary: #333;
+    --color-accent: #000;
+    --color-bg: #f8f8f8;
+    --color-text: #222;
+    --color-text-light: #666;
+    --color-border: #e0e0e0;
+    --font-family: 'SangSans', sans-serif;
+    --max-width: 1200px;
+    --spacing-unit: 1rem;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+/* Random Class Pattern for CSS Classes */
+.t-nav-gggd {
+    background-color: var(--color-primary);
+    color: white;
+    padding: calc(var(--spacing-unit) * 0.75) var(--spacing-unit);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.r-foot-c0p8 {
+    background-color: var(--color-secondary);
+    color: white;
+    padding: calc(var(--spacing-unit) * 3) var(--spacing-unit);
+    margin-top: calc(var(--spacing-unit) * 4);
+}
+.t-nav-gggd-inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.m-btn-5th3 {
+    display: inline-block;
+    background-color: var(--color-accent);
+    color: white;
+    padding: calc(var(--spacing-unit) * 0.5) var(--spacing-unit);
+    text-decoration: none;
+    font-size: 0.9rem;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+.m-btn-5th3:hover {
+    opacity: 0.8;
+}
+.k-list-7wdl {
+    list-style: none;
+    padding: 0;
+    margin: var(--spacing-unit) 0;
+}
+.k-list-7wdl a {
+    display: block;
+    padding: calc(var(--spacing-unit) * 0.5);
+    color: var(--color-text-light);
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-border);
+    transition: color 0.2s, background-color 0.2s;
+}
+.k-list-7wdl a:hover {
+    color: var(--color-text);
+    background-color: #f0f0f0;
+}
+.t-grid-s7wh {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-unit);
+    margin: calc(var(--spacing-unit) * 2) 0;
+}
+/* Content-specific Styles */
+.content-wrapper {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: calc(var(--spacing-unit) * 2) var(--spacing-unit);
+}
+.info-header {
+    margin-bottom: calc(var(--spacing-unit) * 3);
+    padding-bottom: var(--spacing-unit);
+    border-bottom: 1px solid var(--color-border);
+}
+.info-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: calc(var(--spacing-unit) * 0.5);
+}
+.info-header .subtitle {
+    font-size: 1.1rem;
+    color: var(--color-text-light);
+    font-weight: 300;
+}
+.data-card {
+    background: white;
+    padding: calc(var(--spacing-unit) * 1.5);
+    border: 1px solid var(--color-border);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.data-card h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-unit);
+    padding-bottom: calc(var(--spacing-unit) * 0.5);
+    border-bottom: 2px solid var(--color-accent);
+}
+.data-card ul {
+    margin-left: calc(var(--spacing-unit) * 1.2);
+}
+.data-card li {
+    margin-bottom: calc(var(--spacing-unit) * 0.5);
+    color: var(--color-secondary);
+}
+.data-card .highlight {
+    font-weight: 700;
+    color: var(--color-primary);
+}
+.analysis-block {
+    background: var(--color-primary);
+    color: white;
+    padding: calc(var(--spacing-unit) * 2);
+    margin: calc(var(--spacing-unit) * 2) 0;
+}
+.analysis-block h3 {
+    font-size: 1.3rem;
+    margin-bottom: var(--spacing-unit);
+    font-weight: 700;
+}
+.analysis-block p {
+    color: rgba(255,255,255,0.9);
+    line-height: 1.7;
+}
+.faq-section {
+    margin: calc(var(--spacing-unit) * 3) 0;
+}
+.faq-section h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: var(--spacing-unit);
+    color: var(--color-primary);
+}
+.faq-item {
+    margin-bottom: var(--spacing-unit);
+    padding: var(--spacing-unit);
+    border-left: 3px solid var(--color-accent);
+    background: white;
+}
+.faq-question {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--color-primary);
+    margin-bottom: calc(var(--spacing-unit) * 0.5);
+}
+.faq-answer {
+    color: var(--color-secondary);
+    line-height: 1.7;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .info-header h1 { font-size: 2rem; }
+    .t-grid-s7wh { grid-template-columns: 1fr; }
+    .data-card { padding: var(--spacing-unit); }
+}
+</style>
+</head>
+<body>
+
+<nav class="t-nav-gggd">
+    <div class="t-nav-gggd-inner">
+        <div>상수동 정보 노트</div>
+        <div>
+            <a href="#location-analysis" class="m-btn-5th3">위치 분석</a>
+        </div>
+    </div>
+</nav>
+
+<main class="content-wrapper">
+    <header class="info-header">
+        <h1>정보</h1>
+        <p class="subtitle">상수동 노래방의 위치 좌표와 접근성, 주변 인프라에 대한 정량적 분석</p>
+    </header>
+
+    <section id="location-analysis" class="t-grid-s7wh">
+        <div class="data-card">
+            <h2>핵심 위치 좌표</h2>
+            <p>상수동 노래방의 정밀 위치는 다음 기준점으로 정의됩니다.</p>
+            <ul>
+                <li><span class="highlight">기준점 A:</span> 상수역 4번 출구 기준 직선거리 150m 이내 (도보 2분 이내)</li>
+                <li><span class="highlight">기준점 B:</span> 상수역 1번 출구 기준 직선거리 200m 이내 (도보 3분 이내)</li>
+                <li><span class="highlight">기준점 C:</span> 상수로2길 주요 상권 내 위치 (건물 1~3층 배치)</li>
+            </ul>
+        </div>
+        <div class="data-card">
+            <h2>접속 경로 데이터</h2>
+            <p>주요 접근 경로의 평균 소요 시간과 효율성입니다.</p>
+            <ul>
+                <li><span class="highlight">지하철 이용 시:</span> 6호선 상수역 하차 후 도보 평균 2분~5분</li>
+                <li><span class="highlight">버스 이용 시:</span> 상수역 정류장 하차 후 도보 평균 3분~7분</li>
+                <li><span class="highlight">차량 이용 시:</span> 인근 유료/공영 주차장 3곳 이용 가능 (평균 주차 요금: 시간당 3,000원~4,000원)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="analysis-block">
+        <h3>지역 시그널 분석</h3>
+        <p>상수동 노래방 밀집 지역은 서울 마포구의 주요 업무 및 상업 지구와 인접해 있습니다. 특히 상수역 일대는 대중교통 접근성이 높아 유동인구가 꾸준하며, 주변 카페, 식당, 편의점 등 편의시설이 밀집해 있습니다. 이는 노래방 방문 시 부수적인 활동의 편의성을 높이는 중요한 지역적 시그널입니다. 주거지와 상권이 혼재된 형태로, 방문 시간대에 따라 이용객 구성이 변화하는 특징이 있습니다.</p>
+    </section>
+
+    <section class="t-grid-s7wh">
+        <div class="data-card">
+            <h2>주변 인프라 구성</h2>
+            <ul>
+                <li><span class="highlight">식음료:</span> 다양한 컨셉의 카페, 음식점이 도보 5분 이내에 분포</li>
+                <li><span class="highlight">편의점/마트:</span> GS25, CU, 세븐일레븐 등 주요 편의점 5곳 이상 도보 2분 이내</li>
+                <li><span class="highlight">기타 편의시설:</span> 편의점, 약국, 편의점 등 생활 필수시설 완비</li>
+            </ul>
+        </div>
+        <div class="data-card">
+            <h2>교통 접근 편의성 평가</h2>
+            <p>접근성 점수는 10점 만점 기준으로 다음과 같이 산출됩니다.</p>
+            <ul>
+                <li><span class="highlight">대중교통 접근성:</span> 9.5점 (지하철 6호선 직접 연계)</li>
+                <li><span class="highlight">도보 접근성:</span> 9.0점 (주요 도로 및 상권 내 보도 환경 양호)</li>
+                <li><span class="highlight">차량 접근성:</span> 7.0점 (주차 공간 확보 가능하나 혼잡 시간대 어려움)</li>
+                <li><span class="highlight">종합 접근성:</span> 8.5점</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <h2>자주 묻는 질문</h2>
+        <div class="faq-item">
+            <div class="faq-question">상수역에서 가장 가까운 노래방은 어디에 있나요?</div>
+            <div class="faq-answer">상수역 4번 출구에서 직선거리 약 100m 내외의 건물 1~3층에 여러 업장이 입점해 있습니다. 정확한 위치는 상수역 주변 지도에서 '노래방' 키워드로 검색하시면 확인 가능합니다.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">주변에 주차장이 있나요?</div>
+            <div class="faq-answer">네. 상수역 인근에 유료 주차장 3곳과 공영 주차장 1곳이 있습니다. 다만, 저녁 시간대(18시~23시)에는 혼잡할 수 있어 대중교통 이용을 권장합니다.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">인근에 식당이나 카페가 많은가요?</div>
+            <div class="faq-answer">상수동은 상권이 잘 발달한 지역으로, 노래방 인근 도보 5분 이내에 다양한 음식점(한식, 일식, 양식 등)과 카페가 밀집해 있습니다. 노래방 전후 식사나 다회 활동에 매우 편리한 환경입니다.</div>
+        </div>
+    </section>
+
+    <section class="data-card" style="margin-top: calc(var(--spacing-unit) * 3);">
+        <h2>정보 제공 및 문의</h2>
+        <p>본 페이지의 위치 정보는 공개된 지도 데이터 및 현장 조사를 기반으로 작성되었습니다. 추가적인 질문이나 보완이 필요한 사항이 있으시면 아래 연락처로 문의해 주십시오.</p>
+        <p style="margin-top: var(--spacing-unit);"><strong>이메일:</strong> info@sangsu-info.mens-esthe.space</p>
+        <p><strong>운영 시간:</strong> 평일 09:00 - 18:00 (주말, 공휴일 제외)</p>
+    </section>
+</main>
+
+<footer class="r-foot-c0p8">
+    <div style="max-width: var(--max-width); margin: 0 auto;">
+        <p>© 2024 상수동 정보 노트. 모든 권리 보유.</p>
+        <p style="margin-top: var(--spacing-unit); font-size: 0.9rem; opacity: 0.7;">본 정보는 객관적 데이터 분석을 목적으로 제공되며, 특정 업체의 홍보나 광고를 목적으로 하지 않습니다.</p>
+    </div>
+</footer>
+
+</body>
+</html>
